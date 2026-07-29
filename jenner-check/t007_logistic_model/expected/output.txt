@@ -1,0 +1,100 @@
+                                     
+---------------------------  --------
+Number of Observations Read        28
+Number of Observations Used        28
+
+                  Response Profile                  
+  Probability modeled is LOAN_APPROVAL_STATUS='N'   
+
+Ordered Value  LOAN_APPROVAL_STATUS  Total Frequency
+-------------  --------------------  ---------------
+            1  N                                  10
+            2  Y                                  18
+
+             Class Level Information             
+
+Class             Levels  Values                 
+--------------  --------  -----------------------
+GENDER                 3   Female Male           
+MARITAL_STATUS         2  Married Not Married    
+FAMILY_MEMBERS         4  0 1 2 3+               
+QUALIFICATION          2  Graduate Under Graduate
+EMPLOYMENT             3   No Yes                
+LOAN_HISTORY           3  . 0 1                  
+LOAN_LOCATION          3  City Town Village      
+
+                                    
+------------------------------------
+WARNING: The model did not converge.
+
+The LOGISTIC Procedure
+Response Variable: LOAN_APPROVAL_STATUS
+
+Criterion     Value
+---------  --------
+AIC          72.044
+-2 Log L     36.044
+SC           94.689
+
+               Analysis of Maximum Likelihood Estimates                
+
+Parameter         Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+----------------  --------  --------------  ---------------  ----------
+Intercept           0.0000          6.0370           0.0000      1.0000
+GENDER              0.0000          3.2112           0.0000      1.0000
+GENDER              0.0000          2.9863           0.0000      1.0000
+MARITAL_STATUS      0.0000          1.8980           0.0000      1.0000
+FAMILY_MEMBERS      0.0000          2.9434           0.0000      1.0000
+FAMILY_MEMBERS      0.0000          3.5552           0.0000      1.0000
+FAMILY_MEMBERS      0.0000          3.1944           0.0000      1.0000
+QUALIFICATION       0.0000          1.5557           0.0000      1.0000
+EMPLOYMENT          0.0000          2.3897           0.0000      1.0000
+EMPLOYMENT          0.0000          1.8204           0.0000      1.0000
+CANDIDATE_INCOME    0.0000          0.0003           0.0000      1.0000
+GUARANTEE_INCOME    0.0000          0.0003           0.0000      1.0000
+LOAN_AMOUNT         0.0000          0.0146           0.0000      1.0000
+LOAN_DURATION       0.0000          0.0108           0.0000      1.0000
+LOAN_HISTORY        0.0000          3.6241           0.0000      1.0000
+LOAN_HISTORY        0.0000          1.8856           0.0000      1.0000
+LOAN_LOCATION       0.0000          1.4889           0.0000      1.0000
+LOAN_LOCATION       0.0000          2.1635           0.0000      1.0000
+
+                         Odds Ratio Estimates                         
+
+Effect            Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+----------------  --------------  -----------------  -----------------
+GENDER                     1.000              0.002            541.278
+GENDER                     1.000              0.003            348.312
+MARITAL_STATUS             1.000              0.024             41.264
+FAMILY_MEMBERS             1.000              0.003            320.203
+FAMILY_MEMBERS             1.000             <0.001           >999.999
+FAMILY_MEMBERS             1.000              0.002            523.689
+QUALIFICATION              1.000              0.047             21.099
+EMPLOYMENT                 1.000              0.009            108.175
+EMPLOYMENT                 1.000              0.028             35.443
+CANDIDATE_INCOME           1.000              0.999              1.001
+GUARANTEE_INCOME           1.000              0.999              1.001
+LOAN_AMOUNT                1.000              0.972              1.029
+LOAN_DURATION              1.000              0.979              1.021
+LOAN_HISTORY               1.000             <0.001           >999.999
+LOAN_HISTORY               1.000              0.025             40.278
+LOAN_LOCATION              1.000              0.054             18.509
+LOAN_LOCATION              1.000              0.014             69.438
+
+                                        Scored testing observations (first rows)
+
+
+  Obs  SME_LOAN_ID_NO  GENDER  LOAN_LOCATION
+-----  --------------  ------  -------------
+    1  LP001015        Male    City
+    2  LP001022        Male    City
+    3  LP001031        Male    City
+    4  LP001051        Male    City
+    5  LP001054        Male    City
+    6  LP001055        Female  Town
+    7  LP001056        Male    Village
+    8  LP001067        Male    Town
+    9  LP001078        Male    City
+   10  LP001096        Female  Town
+
+... 10 more observations (showing 10 of 20)

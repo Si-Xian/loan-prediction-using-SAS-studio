@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-29T12:06:46.468397+00:00",
+  "_captured_run_id": "r_3e1ea88e8532437f90bccafbdafddd8a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote TRAINING_DS1 (28 rows, 13 columns)",
+    "row(s) updated in LIB2023.TRAINING_DS1",
+    "PROC SQL"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

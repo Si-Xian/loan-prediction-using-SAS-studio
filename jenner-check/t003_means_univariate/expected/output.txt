@@ -1,0 +1,35 @@
+                          Univariate analysis of the continuous/numeric variable: LOAN_AMOUNT 
+
+                                                  The MEANS Procedure
+
+ Variable           N   N Miss        Minimum         Maximum            Mean          Median        Std Dev
+ -----------------------------------------------------------------------------------------------------------
+ LOAN_AMOUNT       27        1     17.0000000     349.0000000     139.7037037     120.0000000     72.8670100
+ -----------------------------------------------------------------------------------------------------------
+
+                         Univariate analysis of the continuous/numeric variable: LOAN_DURATION 
+
+                                                  The MEANS Procedure
+
+ Variable             N   N Miss         Minimum         Maximum            Mean          Median        Std Dev
+ --------------------------------------------------------------------------------------------------------------
+ LOAN_DURATION       27        1     120.0000000     360.0000000     346.6666667     360.0000000     50.8391127
+ --------------------------------------------------------------------------------------------------------------
+
+                       Univariate analysis of the continuous/numeric variable: CANDIDATE_INCOME  
+
+                                                  The MEANS Procedure
+
+ Variable                N   N Miss          Minimum           Maximum             Mean           Median          Std Dev
+ ------------------------------------------------------------------------------------------------------------------------
+ CANDIDATE_INCOME       28        0     1299.0000000     12841.0000000     4321.3571429     3553.0000000     2461.0246167
+ ------------------------------------------------------------------------------------------------------------------------
+
+                       Univariate analysis of the continuous/numeric variable: GUARANTEE_INCOME  
+
+                                                  The MEANS Procedure
+
+ Variable                N   N Miss        Minimum           Maximum             Mean           Median          Std Dev
+ ----------------------------------------------------------------------------------------------------------------------
+ GUARANTEE_INCOME       28        0      0.0000000     10968.0000000     2082.8214286     1521.0000000     2581.4513152
+ ----------------------------------------------------------------------------------------------------------------------

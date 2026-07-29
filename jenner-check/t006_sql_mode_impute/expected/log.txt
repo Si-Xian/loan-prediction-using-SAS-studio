@@ -1,0 +1,31 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library LIB2023 uses 1 concatenated paths.
+NOTE: DATA TRAINING_DS1
+
+NOTE: Processing inline DATALINES (28 lines)
+
+NOTE: Read 28 rows from DATALINES.
+NOTE: Wrote TRAINING_DS1 (28 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table LIB2023.TRAINING_GENDER_DS_BK created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table LIB2023.TRAINING_DIS_GENDER created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE changed to Mode of GENDER.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 28 row(s) updated in LIB2023.TRAINING_DS1.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE changed to Rows still missing GENDER after imputation (expect none).
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.

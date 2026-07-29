@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_contents_structure",
+  "source_file": "Loan-Prediction-SAS-Studio.sas",
+  "source_blob_sha": "ee5311ae4a616b90206be5fa9f38dc13b66199ff",
+  "source_commit": "8802a036b66cb10f61f46f408851dc86339a9e79",
+  "notes": "PROC CONTENTS + PROC SQL DESCRIBE on the training set (data dictionary/structure). LIB2023 libname aliased to WORK, seeded with a 28-row sample of TRAINING_DS.csv."
+}

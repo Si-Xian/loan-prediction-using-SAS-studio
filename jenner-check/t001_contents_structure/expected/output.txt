@@ -1,0 +1,46 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: LIB2023.TRAINING_DS1
+Observations:  28
+Variables:     13
+
+Variables (in alphabetical order):
+
+  #  Variable              Type    Len  Format  Label
+---  --------------------  ----  -----  ------  -----
+  1  CANDIDATE_INCOME       Num      8          
+  2  EMPLOYMENT            Char      4          
+  3  FAMILY_MEMBERS        Char      4          
+  4  GENDER                Char      8          
+  5  GUARANTEE_INCOME       Num      8          
+  6  LOAN_AMOUNT            Num      8          
+  7  LOAN_APPROVAL_STATUS  Char      1          
+  8  LOAN_DURATION          Num      8          
+  9  LOAN_HISTORY           Num      8          
+ 10  LOAN_LOCATION         Char      8          
+ 11  MARITAL_STATUS        Char     12          
+ 12  QUALIFICATION         Char     16          
+ 13  SME_LOAN_ID_NO        Char     12          
+
+-------------------------------------------------------------------------------
+
+                                    Display the Structure of "TRAINING_DS1" dataset
+
+Table: LIB2023.TRAINING_DS1
+Column               Type      
+------               ----      
+SME_LOAN_ID_NO       char      
+GENDER               char      
+MARITAL_STATUS       char      
+FAMILY_MEMBERS       char      
+QUALIFICATION        char      
+EMPLOYMENT           char      
+LOAN_LOCATION        char      
+LOAN_APPROVAL_STATUS char      
+CANDIDATE_INCOME     num       
+GUARANTEE_INCOME     num       
+LOAN_AMOUNT          num       
+LOAN_DURATION        num       
+LOAN_HISTORY         num

@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_macro_bivariate",
+  "source_file": "Loan-Prediction-SAS-Studio.sas",
+  "source_blob_sha": "ee5311ae4a616b90206be5fa9f38dc13b66199ff",
+  "source_commit": "8802a036b66cb10f61f46f408851dc86339a9e79",
+  "notes": "The %MACRO_BIVA_CV macro parameterises a two-way PROC FREQ; three callers exercise it. Sample from TRAINING_DS.csv via LIB2023->WORK alias."
+}

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-29T12:06:46.468884+00:00",
+  "_captured_run_id": "r_d59f6309f7fb452a88bcb422a9df4f32",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote TRAINING_DS1 (28 rows, 13 columns)",
+    "PROC LOGISTIC",
+    "SCORE output dataset LIB2023.TESTING_LAS_PREDICTED_DS written"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,27 @@
+                                Univariate Analysis of the Categorical variable: GENDER
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+GENDER    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female            1      3.70            1         3.70
+Male             26     96.30           27       100.00
+                            Univariate Analysis of the Categorical variable: MARTIAL_STATUS
+
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+MARITAL_STATUS    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+Married                  22     78.57           22        78.57
+Not Married               6     21.43           28       100.00
+                         Univariate Analysis of the Categorical Variable: LOAN_APPROVAL_STATUS
+
+                                                   The FREQ Procedure
+
+                                                  Cumulative    Cumulative
+LOAN_APPROVAL_STATUS    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------------
+N                              10     35.71           10        35.71
+Y                              18     64.29           28       100.00

@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-29T12:10:36.845777+00:00",
+  "_captured_run_id": "r_8da5ac7051e14c62b040cac6cf2563b0",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote TRAINING_DS1 (28 rows, 13 columns)",
+    "PROC FREQ"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
