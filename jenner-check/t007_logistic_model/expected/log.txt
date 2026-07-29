@@ -1,0 +1,37 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library LIB2023 uses 1 concatenated paths.
+NOTE: DATA TRAINING_DS1
+
+NOTE: Processing inline DATALINES (28 lines)
+
+NOTE: Read 28 rows from DATALINES.
+NOTE: Wrote TRAINING_DS1 (28 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA TESTING_DS
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote TESTING_DS (20 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC LOGISTIC data=LIB2023.TRAINING_DS1
+
+NOTE: Using Python statsmodels.api.Logit version 0.14.6
+NOTE: Output dataset LIB2023.TRAINING_OUT_DS written with 28 observations.
+NOTE: OUTMODEL dataset LIB2023.TRAINING_DS1_LR_MODEL written.
+NOTE: ODS plot written: logistic_oddsratio.spec.json
+NOTE: ODS plot written: logistic_roc.spec.json
+NOTE: PROC LOGISTIC ODS Graphics generated.
+NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json
+NOTE: PROC LOGISTIC data=
+
+NOTE: SCORE output dataset LIB2023.TESTING_LAS_PREDICTED_DS written with 20 observations.
+NOTE: PROC LOGISTIC scored 1 SCORE statement(s) from INMODEL=LIB2023.TRAINING_DS1_LR_MODEL without refitting.
+NOTE: Option TITLE changed to Scored testing observations (first rows).
+NOTE: PROC PRINT data=LIB2023.TESTING_LAS_PREDICTED_DS
+
+NOTE: PROC PRINT completed: 10 observations printed, 3 variables

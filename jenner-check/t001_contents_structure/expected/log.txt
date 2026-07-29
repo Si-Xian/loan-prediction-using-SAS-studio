@@ -1,0 +1,18 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library LIB2023 uses 1 concatenated paths.
+NOTE: DATA TRAINING_DS1
+
+NOTE: Processing inline DATALINES (28 lines)
+
+NOTE: Read 28 rows from DATALINES.
+NOTE: Wrote TRAINING_DS1 (28 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=LIB2023.TRAINING_DS1
+
+NOTE: PROC CONTENTS completed: 28 observations, 13 variables
+NOTE: Option TITLE changed to Display the Structure of "TRAINING_DS1" dataset.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.

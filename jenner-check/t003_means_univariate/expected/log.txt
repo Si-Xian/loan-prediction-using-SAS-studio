@@ -1,0 +1,23 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library LIB2023 uses 1 concatenated paths.
+NOTE: DATA TRAINING_DS1
+
+NOTE: Processing inline DATALINES (28 lines)
+
+NOTE: Read 28 rows from DATALINES.
+NOTE: Wrote TRAINING_DS1 (28 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Univariate analysis of the continuous/numeric variable: LOAN_AMOUNT .
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE changed to Univariate analysis of the continuous/numeric variable: LOAN_DURATION .
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE changed to Univariate analysis of the continuous/numeric variable: CANDIDATE_INCOME  .
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE changed to Univariate analysis of the continuous/numeric variable: GUARANTEE_INCOME  .
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
